@@ -1,0 +1,21 @@
+.Caro-size{
+    height:500px;
+    width: 100%;
+    background-color: black;
+    margin-top: 2px;
+}
+.imag-sixe{
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+   display: block;
+    height: 500px;
+    width: 1000px;
+    object-fit: cover;
+
+}
+.Name-i{
+    font-size: 60px;
+    color: goldenrod;
+    align-items: center;
+}

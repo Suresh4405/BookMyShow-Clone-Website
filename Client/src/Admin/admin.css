@@ -1,0 +1,18 @@
+.tabs-container {
+    width: 100%;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .tab-content div {
+    display: none;
+  }
+  
+  .tab-content div.active {
+    display: block;
+  }
+  

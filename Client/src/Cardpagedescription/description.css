@@ -1,0 +1,88 @@
+.changee {
+  position: relative; 
+  background-size: cover;
+  background-position: center;
+  height: 600px; 
+  display: flex;
+  width: 100%;
+}
+
+.changee::after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); 
+  z-index: 1;
+}
+
+.aligns {
+  border-radius: 8px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 165px;
+  max-width: 400px; 
+  height: 300px;
+  position: relative; 
+  z-index: 2; 
+}
+
+.psddd {
+  max-width: 400px; 
+  height: 320px;
+  position: relative; 
+  z-index: 2; 
+  opacity: 4.5;
+}
+
+.text {
+  margin-left: 70px;
+  margin-top: 150px;
+  position: relative;
+  z-index: 2; 
+}
+.Texted2{
+  margin-left: 10px;
+  margin-top: 50px;
+  position: relative; 
+  z-index: 2;
+}
+.movie-name {
+  color: white;
+  font-size: 60px;
+}
+.movie-name:hover{
+  color: #FF3B58;
+}
+
+.movie-language,
+.movie-duration,
+.release-date,
+.movie-genre {
+
+  color: #F8E5E9;
+  font-size: 20px;
+  
+}
+
+.NOdss{
+  margin-top: 30px;
+  display: flex;
+}
+.Namess{
+  color: white;
+  background-color: #FF3B58;
+  border-color: #FF3B58;
+  padding: 10px;
+  padding-right: 110px;
+  text-align: center; /* Ensure text alignment is centered */
+  font-size: large;
+  align-items: center;
+}
+.Namess:hover{
+  color: antiquewhite;
+  background-color: black;
+  
+}

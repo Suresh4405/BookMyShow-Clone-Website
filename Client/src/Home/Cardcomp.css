@@ -1,0 +1,27 @@
+
+.card-align{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  margin-top: 15px;
+  border-color: aliceblue;
+  width: 100%;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+.New-var{
+  display: flex;
+  margin-top: 15px;
+}
+.card-img{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 3px;
+  height: 202px;
+  width: 260px;
+  cursor:pointer;
+}

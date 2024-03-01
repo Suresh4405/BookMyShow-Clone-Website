@@ -1,0 +1,44 @@
+
+.body{
+  position: sticky;
+}
+.placeholdercolor::placeholder {
+  color: deepskyblue; 
+  border-color: aquamarine;
+}
+.ml-3{
+    
+    color: deepskyblue;
+    font-size:large;
+    background-color: black;
+  cursor: pointer;
+    border: none;
+    box-shadow:  black
+}
+
+.user-img{
+  width: 50px;
+  height: 40px;
+  float: left;
+}
+.ml-2{
+  margin-top: 7px;
+  color:deepskyblue;
+  font-size:large;
+  background-color: black;
+cursor: pointer;
+}
+.ml-2:hover{
+  color:brown;
+}
+
+.Logout{
+  width: 45px;
+  height: 35px;
+}
+
+.home-e{
+  color:deepskyblue;
+  margin-left: 100px;
+  
+}
